@@ -6,7 +6,6 @@ import { useState } from 'react';
 
 const Footer = () => {
     const [size, setsize] = useState(window.innerWidth);
-    console.log(size);
     window.addEventListener('resize', () => {
         setsize(window.innerWidth);
     })
