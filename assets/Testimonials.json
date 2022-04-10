@@ -1,0 +1,19 @@
+{
+    "testimonials":[
+        {
+            "id":1,
+            "name":"Maria Montessori",
+            "quote":"Me gustaría agradecer al sitio, me ayudó de una manera inimaginable, el psicólogo fue sumamente servicial y acogedor conmigo y me siento mejor conmigo mismo."
+        }, 
+        {
+            "id":2,
+            "name":"LOREM",
+            "quote":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock."
+        },
+        {
+            "id":3,
+            "name":"LOREM 2",
+            "quote":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+        }
+    ]
+}
