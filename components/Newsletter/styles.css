@@ -4,7 +4,7 @@
     align-items: center;
     width: 100%;
     position: relative;
-    margin-top: 20px;
+    margin-top: 24px;
 }
 
 .newsletter__hero {
@@ -35,10 +35,13 @@
 
 .newsletter__container__input {
     position: relative;
+    width: 95%;
+    max-width: 350px;
 }
 
 .newsletter__container__input input {
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     height: 56px;
     background-color: transparent;
     border: 1px solid var(--grey-natural200);
@@ -47,7 +50,7 @@
     font-size: 16px;
     font-weight: 400;
     color: var(--grey-natural800);
-    padding: 10px;
+    padding: 8px;
 }
 
 .newsletter__container__input input::placeholder {
@@ -117,5 +120,11 @@
 
     .newsletter__container__title {
         align-items: flex-start;
+    }
+    .newsletter__container__input {
+       width: 500px;
+    }
+    .newsletter__container__input input{
+        max-width: 500px;
     }
 }

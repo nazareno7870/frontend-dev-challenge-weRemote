@@ -1,13 +1,15 @@
 import './styles.css';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 const Hero = () => {
     const [size, setsize] = useState(window.innerWidth);
     const [itemShow, setItemShow] = useState(0);
+    const hero = useRef();
     useEffect(() => {
         window.addEventListener('resize', () => {
-            setsize(window.innerWidth);
+            setsize(hero.current.clientWidth);
         })
+        setsize(hero.current.clientWidth)
 
     }, [size])
 
@@ -20,7 +22,7 @@ const Hero = () => {
     }, 2500);
 
     return (
-        <div className="hero">
+        <div className="hero" ref={hero}>
             <div className="hero__container" style={{ transform: `translateX(-${size * itemShow}px)` }}>
                 <div className="hero__container__item">
                     <div className="textContainer">

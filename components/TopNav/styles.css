@@ -47,7 +47,9 @@
     -o-transition: .25s ease-in-out;
     transition: .25s ease-in-out;
 }
-
+.topnav__logo,.topnav__search{
+    cursor: pointer;
+}
 .topnav__icon span:nth-child(1) {
     top: 0px;
 }

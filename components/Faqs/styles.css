@@ -33,7 +33,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 10px 20px;
+    padding: 8px 24px;
     cursor: pointer;
 }
 
@@ -56,14 +56,14 @@
     font-size: 12px;
     line-height: 16px;
     letter-spacing: -0.02em;
-    padding: 0px 20px;
+    padding: 0px 24px;
     height: auto;
     max-height: 0;
     transition: all 0.8s;
 }
 .faqs__faq__answer.open{
     max-height: 300px;
-    padding: 10px 20px;
+    padding: 8px 24px;
 }
 .arrowIcon {
     transform: rotate(0deg);

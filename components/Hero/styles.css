@@ -25,7 +25,7 @@
 
 .textContainer__p {
     display: none;
-    padding: 10px;
+    padding: 8px;
 
 }
 
@@ -60,7 +60,7 @@
 
 .textContainer__top {
     background: linear-gradient(0deg, rgba(22, 22, 22, 0) 0%, rgba(22, 22, 22, 0.7) 100%);
-    padding: 10px;
+    padding: 8px;
     width: 100%;
 }
 
@@ -74,7 +74,7 @@
 
 .textContainer__bottom {
     background: linear-gradient(0deg, rgba(22, 22, 22, 0.7) 0%, rgba(22, 22, 22, 0) 100%);
-    padding: 10px;
+    padding: 8px;
     width: 100%;
 
 }
@@ -101,7 +101,7 @@
     .textContainer{
         width: 380px;
         height: 450px;
-        margin: 80px 50px;
+        margin: 80px 48px;
     }
     .textContainer__top span{
         color: var(--purple500);

@@ -15,6 +15,7 @@
     width: 100%;
     border-radius: 10px 10px 0px 0px;
     height: 200px;
+    position: relative;
 }
 
 .card img {
@@ -23,6 +24,22 @@
     height: 200px;
     box-shadow: 0px 1px 3px 0px #00000040;
     object-fit: cover;
+    transition: all 0.3s;
+}
+
+.card__image::after{
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.27) 100%);
+    transition: all 0.5s;
+}
+
+.card__image:hover::after{
+    height: 100%;
 }
 
 .card__content {
@@ -50,11 +67,14 @@
     height: 80px;
     overflow: hidden;
     cursor: pointer;
+    transition: all 0.5s;
 }
-
+.card__content__title h3:hover{
+    color: var(--purple1000);
+}
 .card__content__description {
     border-top: 1px solid var(--grey-natural200);
-    padding-top: 6px;
+    padding-top: 8px;
 }
 
 .card__content__description p {

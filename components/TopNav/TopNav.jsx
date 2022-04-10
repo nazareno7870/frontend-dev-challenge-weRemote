@@ -12,6 +12,10 @@ const TopNav = () => {
         setIsOpen(!isOpen);
     }
 
+    const handleTop = () => {
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+
     window.addEventListener('resize', () => {
         setsize(window.innerWidth);
     })
@@ -27,7 +31,9 @@ const TopNav = () => {
                     <span></span>
                     <span></span>
                 </div>
-                <div className="topnav__logo">
+                <div className="topnav__logo"
+                onClick={handleTop}
+                >
                     <img src={LogoTopNav} alt="" />
                 </div>
                 <div className="topnav__search">
@@ -39,26 +45,26 @@ const TopNav = () => {
                 <div className="topmenu__section">
                     <h3>Embarazo</h3>
                     <ul>
-                        <li>Quiero ser mamá <img src={Arrow} alt="Arrow" /></li>
-                        <li>Voy a ser mamá <img src={Arrow} alt="Arrow" /></li>
-                        <li>Parto <img src={Arrow} alt="Arrow" /></li>
+                        <li onClick={handleMenu}>Quiero ser mamá <img src={Arrow} alt="Arrow" /></li>
+                        <li onClick={handleMenu}>Voy a ser mamá <img src={Arrow} alt="Arrow" /></li>
+                        <li onClick={handleMenu}>Parto <img src={Arrow} alt="Arrow" /></li>
                     </ul>
                 </div>
                 <div className="topmenu__section">
                     <h3>Educación</h3>
                     <ul>
-                        <li>Aprende a ser mamá <img src={Arrow} alt="Arrow" /></li>
-                        <li>Educación para bebés <img src={Arrow} alt="Arrow" /></li>
-                        <li>Educación para niños <img src={Arrow} alt="Arrow" /></li>
+                        <li onClick={handleMenu}>Aprende a ser mamá <img src={Arrow} alt="Arrow" /></li>
+                        <li onClick={handleMenu}>Educación para bebés <img src={Arrow} alt="Arrow" /></li>
+                        <li onClick={handleMenu}>Educación para niños <img src={Arrow} alt="Arrow" /></li>
                     </ul>
                 </div>
                 {size>768 &&
                     <div className="topmenu__section">
                         <h3>Lorem</h3>
                         <ul>
-                            <li>Id pulvinar scelerisque<img src={Arrow} alt="Arrow" /></li>
-                            <li>Sit lacus viverra sit<img src={Arrow} alt="Arrow" /></li>
-                            <li>Cras in eu tincidunt<img src={Arrow} alt="Arrow" /></li>
+                            <li onClick={handleMenu}>Id pulvinar scelerisque<img src={Arrow} alt="Arrow" /></li>
+                            <li onClick={handleMenu}>Sit lacus viverra sit<img src={Arrow} alt="Arrow" /></li>
+                            <li onClick={handleMenu}>Cras in eu tincidunt<img src={Arrow} alt="Arrow" /></li>
                         </ul>
                     </div>
                 }

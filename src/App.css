@@ -2,7 +2,7 @@
     width: 95%;
     height: 8px;
     background-color: var(--purple1000);
-    margin-top: 20px;
+    margin-top: 24px;
 }
 
 .section {
@@ -13,14 +13,19 @@
 .section h4 {
     color: var(--purple1000);
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 .group {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 95%;
+}
+.group__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media (min-width: 768px) {
