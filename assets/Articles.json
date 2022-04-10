@@ -1,0 +1,48 @@
+
+{
+    "articles":[
+        {
+            "id":1,
+            "title":"Colapso mental: cuando siento el peso del mundo sobre mí",
+            "description":"A veces nos sentimos como Atlas, aquel titán al que Zeus castigó y le obligó a llevar el peso de…",
+            "img":"https://images.unsplash.com/photo-1514925312285-7a2c94c2c095?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bW90aGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60",
+            "category":"Nutrición"
+        },
+        {
+            "id":2,
+            "title":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor id lorem amet, tincidunt amet diam nisl. Quis sagittis.",
+            "img":"https://images.unsplash.com/photo-1489760176169-fd3d32805239?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bW90aGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60",
+            "category":"LoremLorem"
+        },
+        {
+            "id":3,
+            "title":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor id lorem amet, tincidunt amet diam nisl. Quis sagittis.",
+            "img":"https://images.unsplash.com/photo-1504439158909-5a2f08876082?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW90aGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60",
+            "category":"Lorem"
+        },
+        {
+            "id":4,
+            "title":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor id lorem amet, tincidunt amet diam nisl. Quis sagittis.",
+            "img":"https://images.unsplash.com/photo-1526957805074-b9caec265656?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fG1vdGhlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60",
+            "category":"Lorem"
+        },
+        {
+            "id":5,
+            "title":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor id lorem amet, tincidunt amet diam nisl. Quis sagittis.",
+            "img":"https://images.unsplash.com/photo-1534821084228-d985662dfb56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fG1vdGhlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60",
+            "category":"Lorem"
+        },
+        {
+            "id":6,
+            "title":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor id lorem amet, tincidunt amet diam nisl. Quis sagittis.",
+            "img":"https://images.unsplash.com/photo-1492725764893-90b379c2b6e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fG1vdGhlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60",
+            "category":"Lorem"
+        }
+    ]
+
+}

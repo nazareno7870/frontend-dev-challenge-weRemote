@@ -196,5 +196,11 @@ blockquote {
   font-size: 16px;
   line-height: 32px;
   letter-spacing: 0.02em;
-  color: #000000;
+  color: var(--grey-natural700);
+}
+main{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
 }

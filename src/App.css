@@ -1,0 +1,15 @@
+.separator{
+    width: 95%;
+    height: 8px;
+    background-color: var(--purple1000);
+    margin-top: 20px;
+}
+.section{
+    width: 95%;
+    text-align: start;
+}
+.section h4{
+    color: var(--purple1000);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
