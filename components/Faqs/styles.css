@@ -16,13 +16,12 @@
     align-items: center;
     width: 100%;
     height: auto;
-    max-height: 44px;
     overflow: hidden;
     background: var(--basic-white);
     transition: all 0.8s;
 }
-.faqs__faq.open{
-    max-height: 400px;
+
+.faqs__faq.open {
     background: var(--purple50);
 }
 
@@ -57,12 +56,20 @@
     font-size: 12px;
     line-height: 16px;
     letter-spacing: -0.02em;
+    padding: 0px 20px;
+    height: auto;
+    max-height: 0;
+    transition: all 0.8s;
+}
+.faqs__faq__answer.open{
+    max-height: 300px;
     padding: 10px 20px;
 }
-.arrowIcon{
+.arrowIcon {
     transform: rotate(0deg);
     transition: all 0.5s ease-in-out;
 }
-.faqs__faq.open>.faqs__faq__question>.arrowIcon{
+
+.faqs__faq.open>.faqs__faq__question>.arrowIcon {
     transform: rotate(90deg);
 }

@@ -26,7 +26,7 @@ const ItemFaqs = ({faq,idOpen,setIdOpen}) => {
                     <img src={Arrow} alt="Arrow" />
                 </div>
             </div>
-            <div className="faqs__faq__answer">
+            <div className={isOpen&&idOpen===faq.id ? "faqs__faq__answer open" : "faqs__faq__answer"}>
                 <p>{faq.answer}</p>
             </div>
         </div>
